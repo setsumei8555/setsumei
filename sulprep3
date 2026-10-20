@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="theme-color" content="#176B87">
+  <meta name="description" content="大腸内視鏡検査の前処置に使用するサルプレップの1日法について、説明動画をご案内します。">
+
+  <title>サルプレップ｜1日法の説明動画</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --salprep-primary: #176B87;
+      --salprep-primary-dark: #12566D;
+      --salprep-background: #F3F8FA;
+      --salprep-text: #263238;
+      --salprep-muted: #54656D;
+      --salprep-border: #D7E5EA;
+      --salprep-focus: #F0A830;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding:
+        max(20px, env(safe-area-inset-top))
+        max(16px, env(safe-area-inset-right))
+        max(24px, env(safe-area-inset-bottom))
+        max(16px, env(safe-area-inset-left));
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        Meiryo,
+        sans-serif;
+      color: var(--salprep-text);
+      background: var(--salprep-background);
+      line-height: 1.7;
+      overflow-wrap: anywhere;
+    }
+
+    .salprep-page {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .salprep-card {
+      padding: clamp(20px, 5vw, 36px);
+      background: #FFFFFF;
+      border: 1px solid var(--salprep-border);
+      border-radius: 18px;
+      box-shadow: 0 4px 18px rgba(28, 77, 94, 0.06);
+    }
+
+    .salprep-label {
+      display: inline-block;
+      margin: 0 0 12px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: #E6F3F6;
+      color: var(--salprep-primary-dark);
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    .salprep-intro {
+      margin: 0 0 8px;
+      color: var(--salprep-muted);
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--salprep-primary-dark);
+      font-size: clamp(28px, 6vw, 38px);
+      line-height: 1.35;
+      font-weight: 750;
+      letter-spacing: 0.02em;
+    }
+
+    h2 {
+      margin: 8px 0 20px;
+      font-size: clamp(18px, 4vw, 22px);
+      font-weight: 650;
+      line-height: 1.5;
+    }
+
+    .salprep-description {
+      margin: 0 0 24px;
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .salprep-video-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      min-height: 60px;
+      padding: 16px 20px;
+      border: 0;
+      border-radius: 12px;
+      background: var(--salprep-primary);
+      color: #FFFFFF;
+      font-family: inherit;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+      touch-action: manipulation;
+      transition: background-color 0.15s ease;
+    }
+
+    .salprep-video-button:hover {
+      background: var(--salprep-primary-dark);
+    }
+
+    .salprep-video-button:active {
+      background: #0D485C;
+    }
+
+    .salprep-play-icon {
+      flex: 0 0 auto;
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .salprep-note {
+      margin: 14px 0 0;
+      color: var(--salprep-muted);
+      font-size: 13px;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    .salprep-divider {
+      height: 1px;
+      margin: 24px 0;
+      border: 0;
+      background: var(--salprep-border);
+    }
+
+    .salprep-footer {
+      margin: 20px 0 0;
+      color: var(--salprep-muted);
+      font-size: 12px;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--salprep-focus);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding:
+          max(14px, env(safe-area-inset-top))
+          max(12px, env(safe-area-inset-right))
+          max(20px, env(safe-area-inset-bottom))
+          max(12px, env(safe-area-inset-left));
+      }
+
+      .salprep-card {
+        padding: 22px 18px;
+        border-radius: 14px;
+      }
+
+      .salprep-intro {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        margin-bottom: 18px;
+        font-size: 19px;
+      }
+
+      .salprep-description {
+        margin-bottom: 20px;
+        font-size: 15px;
+      }
+
+      .salprep-video-button {
+        min-height: 58px;
+        padding: 15px 12px;
+        font-size: 16px;
+      }
+
+      .salprep-note {
+        font-size: 12px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="salprep-page">
+    <section class="salprep-card"
+             aria-labelledby="salprep-title">
+
+      <p class="salprep-label">大腸内視鏡検査のご案内</p>
+
+      <p class="salprep-intro">
+        大腸内視鏡検査 前処置のご案内
+      </p>
+
+      <h1 id="salprep-title">サルプレップ</h1>
+
+      <h2>1日法の説明動画</h2>
+
+      <p class="salprep-description">
+        サルプレップを使用する1日法の説明動画です。
+        検査前の準備について、医療機関からの指示と
+        あわせてご確認ください。
+      </p>
+
+      <a
+        class="salprep-video-button"
+        href="https://drive.google.com/file/d/1k62bBcJn9yEHMSwqtgKBALa3OZ56-AGJ/preview"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="サルプレップ1日法の説明動画を別画面で開く">
+
+        <span class="salprep-play-icon"
+              aria-hidden="true">▶</span>
+
+        <span>説明動画を見る</span>
+      </a>
+
+      <p class="salprep-note">
+        タップすると動画が別画面で開きます。
+        動画が表示されない場合は、画面の案内に従ってください。
+      </p>
+
+      <hr class="salprep-divider">
+
+      <p class="salprep-footer">
+        サルプレップの服用方法や検査前の注意事項は、
+        必ず医療機関からの説明に従ってください。
+      </p>
+
+    </section>
+  </main>
+</body>
+</html>
